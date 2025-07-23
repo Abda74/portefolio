@@ -8,7 +8,7 @@ const Contact = () => {
     return (
         <div className="min-h-screen bg-gradient-to-br py-16 px-4">
             <Title title="Contact" />
-            <div className="max-w-7xl mx-auto">
+            <div className=" mx-auto">
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
                     {/* Section Coordonnées */}
@@ -20,7 +20,7 @@ const Contact = () => {
                             </h3>
 
                             <div className="space-y-6">
-                                <div className="flex items-center group hover:bg-blue-50 p-4 rounded-xl transition-all duration-300">
+                                <div className="flex flex-col md:flex-row items-center group hover:bg-blue-50 p-4 rounded-xl transition-all duration-300">
                                     <div className="bg-gradient-to-r from-blue-500 to-blue-600 p-3 rounded-full mr-4 group-hover:scale-110 transition-transform">
                                         <Mail className="w-6 h-6 text-white" />
                                     </div>
@@ -30,7 +30,7 @@ const Contact = () => {
                                     </div>
                                 </div>
 
-                                <div className="flex items-center group hover:bg-green-50 p-4 rounded-xl transition-all duration-300">
+                                <div className="flex flex-col md:flex-row items-center group hover:bg-green-50 p-4 rounded-xl transition-all duration-300">
                                     <div className="bg-gradient-to-r from-green-500 to-green-600 p-3 rounded-full mr-4 group-hover:scale-110 transition-transform">
                                         <Phone className="w-6 h-6 text-white" />
                                     </div>
@@ -40,7 +40,7 @@ const Contact = () => {
                                     </div>
                                 </div>
 
-                                <div className="flex items-center group hover:bg-purple-50 p-4 rounded-xl transition-all duration-300">
+                                <div className="flex flex-col md:flex-row items-center group hover:bg-purple-50 p-4 rounded-xl transition-all duration-300">
                                     <div className="bg-gradient-to-r from-purple-500 to-purple-600 p-3 rounded-full mr-4 group-hover:scale-110 transition-transform">
                                         <MapPin className="w-6 h-6 text-white" />
                                     </div>
@@ -52,15 +52,6 @@ const Contact = () => {
                             </div>
                         </div>
 
-                        {/* Section horaires */}
-                        <div className="bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl p-8 text-white shadow-xl">
-                            <h4 className="text-xl font-semibold mb-4">Horaires de disponibilité</h4>
-                            <div className="space-y-2 text-blue-100">
-                                <p><span className="font-medium">Lun - Ven:</span> 08h00 - 18h00</p>
-                                <p><span className="font-medium">Sam:</span> 08h00 - 16h00</p>
-                                <p><span className="font-medium">Dim:</span> Sur rendez-vous</p>
-                            </div>
-                        </div>
                     </div>
 
                     {/* Section Formulaire */}

@@ -40,7 +40,7 @@ const About = () => {
     return (
         <div className="text-center bg-base-300 pb-10" id="About">
             <Title  title="A propos " />
-            <div className=" flex justify-center items-center pb-10">
+            <div className=" flex justify-center items-center pb-10 px-4">
                 <div className="hidden md:block">
                     <img src={Abdala} alt="Abdala image" className="w-96 object-cover" />
                 </div>

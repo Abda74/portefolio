@@ -28,7 +28,7 @@ const Footer = () => {
             {/* ✅ Bouton flottant visible au scroll */}
             <a
                 href="#Home"
-                className="btn btn-primary btn-circle fixed bottom-5 right-5 shadow-lg z-50"
+                className="btn btn-primary btn-circle fixed bottom-5 right-4 shadow-lg z-50"
                 aria-label="Remonter en haut"
             >
                 <ArrowUp className="w-5 h-5" />
