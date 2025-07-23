@@ -130,7 +130,7 @@ const Index = () => {
     };
 
     return (
-        <div ref={containerRef} className="container" >
+        <div ref={containerRef} className="container" onClick={handleOpen}>
             <div className="p-5 md:px-[15%]" ref={homeRef}>
                 <Navbar handleOpen={handleOpen} isOpen={isOpen} />
                 <Home />
