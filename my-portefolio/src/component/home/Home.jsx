@@ -230,7 +230,7 @@ const Home = () => {
                         {/* Boutons d'action */}
                         <div ref={buttonsRef} className="flex flex-wrap gap-4">
                             <a
-                                href="mailto:abdala@example.com"
+                                href="mailto:nignanamed0@gmail.com"
                                 className="group inline-flex items-center gap-3 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-8 py-4 rounded-2xl font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
                             >
                                 <Mail className="w-5 h-5 group-hover:rotate-12 transition-transform duration-300" />
@@ -238,7 +238,7 @@ const Home = () => {
                             </a>
 
                             <a
-                                href="/cv.pdf"
+                                href="../../assets/CV%20Abdala.pdf%20(3).pdf"
                                 download
                                 className="group inline-flex items-center gap-3 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border-2 border-gray-200 dark:border-gray-600 hover:border-blue-500 dark:hover:border-blue-400 px-8 py-4 rounded-2xl font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
                             >
