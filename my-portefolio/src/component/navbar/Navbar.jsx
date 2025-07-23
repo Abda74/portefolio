@@ -36,7 +36,7 @@ console.log(handleOpen);
                 <button className="btn btn-ghost flex flex-col space-x-2 on " onClick={handleOpen}>
                     <Menu className="w-6 h-6" />
                 </button>
-                {isOpen && (<div onClick={handleOpen} className="absolute top-10 left-20 max-w-36 bg-base-300/60 border border-white/20 rounded-lg shadow-lg backdrop-blur-md p-4">
+                {isOpen && (<div onClick={handleOpen} className="absolute top-10 left-20 z-20 max-w-36 bg-base-300/60 border border-white/20 rounded-lg shadow-lg backdrop-blur-md p-4">
                     <ul className="flex flex-col items-start w-full">
                         <li className="btn btn-sm btn-ghost">
                             <a href="#Home" >Acceuil</a>
