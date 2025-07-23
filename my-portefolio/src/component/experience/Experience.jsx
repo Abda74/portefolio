@@ -82,7 +82,7 @@ const experiences = [
         id: 2,
         role: "Développeur Web Full Stack",
         company: "LINFOMED",
-        type: "CDI",
+        type: "Prestation",
         periode: "Février 2025 - Présent",
         description: [
             "Participation au développement de l'application APURMED avec React.js, Node.js, MongoDB, PouchDB.",
